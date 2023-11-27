@@ -1,0 +1,251 @@
+/* style span*/
+
+span {
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    position: relative;
+    height: 400px;
+    /* Set the height of the hero section */
+    background-image: url('images/HERO.jpg');
+    /* Replace 'path/to/your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    /* Set text color to be visible against the background */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Additional styles for the text */
+.hero-section h1 {
+    text-align: justify;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add a text shadow for better visibility */
+}
+
+/* Styles for the top-right navigation */
+.top-right-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.top-right-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-right-nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.top-right-nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.top-right-nav ul li a:hover {
+    color: #ffcc00;
+    /* Change color on hover */
+}
+
+/* Style the footer */
+footer {
+    align-self: baseline;
+    background-color: grey;
+    color: #070C0B;
+    text-align: center;
+    padding: 0, 2%;
+
+}
+
+.video {
+
+    align-items: baseline;
+}
+
+/* Styles for the section with background image */
+.background-section {
+    height: 285px;
+    /* Set the height of the section */
+    background-image: url('images/pexels-markus-spiske-2061168.jpg');
+    /* Replace 'path/to/your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    /* Set text color to be visible against the background */
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+}
+
+/* Additional styles for the text/content within the section */
+.background-section p {
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add a text shadow for better visibility */
+}
+
+.skills {
+    height: 285px;
+    width: 115px;
+    /* Set the height of the section */
+    background-image: url('images/web img 2.png');
+
+    /* Replace 'path/to/your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+/* Styles for the article */
+.about {
+    background-color: #d2d2d2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.about img {
+
+    float: inline-start
+}
+
+/* Styles for the article title */
+.about h4 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2em;
+    margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Styles for the article paragraphs */
+.about p {
+    color: #474747;
+    line-height: 1.6;
+}
+
+/* Styles for the image container */
+.image-container {
+    overflow: hidden;
+    /* Clear any floated content */
+}
+
+/* Styles for the images */
+.image-container img {
+    float: right;
+
+    /* Float images to the right */
+    margin: auto;
+    /* Add margin for spacing between images */
+}
+
+.INTRO {
+    color: #666666;
+    font-size: x-large;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.W {
+
+    font: 200px;
+    font-size: 2em;
+    font-style: initial;
+    font-stretch: condensed;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h3 {
+
+    text-underline-position: auto;
+}
+
+/* Styles for the image container 1 */
+.AE {
+    overflow: hidden;
+    /* Clear any floated content */
+}
+
+/* Styles for the images */
+.AE {
+    float: center;
+
+    /* Float images to the right */
+    margin: auto;
+    /* Add margin for spacing between images */
+}
+
+.contact {
+
+    /* styles.css */
+    input[type="text"] {
+        border: 2px solid #3498db;
+        /* Adding a 2px solid border with color #3498db */
+        border-radius: 5px;
+        /* Adding a slight border radius for rounded corners */
+        padding: 10px;
+        /* Adding padding inside the text box */
+        font-size: 16px;
+        /* Setting font size */
+        width: 300px;
+        /* Setting a specific width for the text box */
+    }
+
+    /* Style for the Submit button */
+    input[type="submit"] {
+        background-color: #3498db;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.bg-img2 {
+    height: 315;
+    width: 112;
+    /* Set the height of the section */
+    background-image: url('images/undraw_portfolio_website_re_jsdd.svg');
+
+    /* Replace 'path/to/your-image.jpg' with the path to your image */
+    background-size:contain;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg-img2 p {
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #070C0B;
+    /* Add a text shadow for better visibility */
+}
